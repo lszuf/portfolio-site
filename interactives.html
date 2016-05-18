@@ -1,187 +1,157 @@
 <!DOCTYPE html>
-
 <html>
+	<head>
+		<title>Libby Szuflita: About Me</title>
+		<meta name="description" content="Hello world, I'm Libby Szuflita, a Brooklyn-based web developer. Thanks for stopping by!">
 
-<head>
-	<title>Libby Szuflita: About Me</title>
+		<!-- Charsets -->
+		<meta charset="utf-8"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
 
-<meta name="description" content="From sociologist to web developer. I can make your ideas come to life.">
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' >
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
-<!-- Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<!-- Sets viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<!-- jQuery and jQueryUI -->
+		<script src="http://code.jquery.com/jquery-1.12.3.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Work+Sans:400' rel='stylesheet' type='text/css'>
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css"/>
 
-<!-- Charsets -->
-<meta charset="utf-8"/>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-
-<!-- Sets viewport -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- jQuery and jQueryUI -->
-<script src="http://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
-
-<script   src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"   integrity="sha256-DI6NdAhhFRnO2k51mumYeDShet3I8AKCQf/tf7ARNhI="   crossorigin="anonymous"></script>
-
-<!--Bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- Linked sheets -->
-<script src="js/javascript.js"></script>
-
-<link rel="stylesheet" href="css/style.css"/>
+		<!-- Favicon -->
+		<link rel="icon" href="img/favicon.ico">
+	</head>
 
 
-<link rel="icon" href="img/favicon.ico">
+	<body>
+		<div id="loader">
+			<img id="loader-gif" src="img/about-loader.gif"/>
+		</div>
 
-</head>
+		<!-- Menu link -->
+		<div class="map-menu-link">
+			<span class="glyphicon glyphicon-menu-hamburger alt-burger"></span>
+		</div>
 
-
-
-<body>
-
-<div id="loader">
-	<img id="loader-gif" src="img/about-loader.gif"/>
-</div>
-
-<!-- Menu link -->
-	<div class="map-menu-link">
-		<span class="glyphicon glyphicon-menu-hamburger alt-burger"></span>
-	</div>
-
-
-<!-- Menu -->
-	<div class="menu">
-
+		<!-- Menu -->
+		<div class="menu">
 			<p><a href="index.html">Home</a></p>
 			<br>
 			<p id="about-tab"><a href="#">About Me</a></p>
 			<br>
 			<p><a href="contact.html">Services</a></p>
-
-
-		<img id="star" src="img/star-cursor.png"/>
-	</div>
-
-
-
-<!-- About me jumbo -->
-
-<div class="jumbotron about-me-jumbo">
-
-
-<div class="container">
-
-	<h1 id="about-me-header">About Me</h1>
-	<h3 id="about-me-text">From sociologist to web developer. I can make your ideas come to life.</h3>
-
-	<div class="about-icon-link">
-		<a id="skillslink" href="#skillsanchor"><img id="pencil-icon" src="img/pencil-icon.png" /></a>
-		<p>Experience</p>
-	</div>
-	<div class="about-icon-link">
-		<a id="bikelink" href="#bikeanchor"><img id="bike-icon" src="img/bike-icon.png" /></a>
-		<p>Adventure</p>
-	</div>
-
-</div>
-
-</div>
-
-
-<!-- Skills -->
-<div class=" container skills">
-	<h1 id="skills-headline"><a id="skillsanchor">&nbspEXPERIENCE&nbsp</a></h1>
-	<div class="row">
-		<div class="col-xs-12 col-sm-4 no-pad skills-block-1">
-			<div class="skills-block-drop">
-				<p>Education
-				<br/>
-				<br/>
-				I graduated from Bowdoin College with a degree in Environmental Studies and Sociology.  My main interests were sustainable urbanism, and the sociology of objects and consumption.</p>
-			</div>
-			<p class="quote">"We need to discover a common middle ground in which all of these things, from the city to the wilderness, can somehow be encompassed in the word “home.”
-			<br/>
-			- William Cronon</p>
+			<img id="star" src="img/star-cursor.png"/>
 		</div>
-		<div class="col-xs-12 col-sm-4 no-pad skills-block-2">
-			<div class="skills-block-drop">
-				<p>Work Experience
-				<br/>
-				<br/>
-				Previous positions range from a town planning assistant, to a marketing strategist at a startup, to a short order cook.  In addition to web development, I have extensive experience in writing and editing, event management, and social research.</p>
+
+		<!-- About me jumbo -->
+		<div class="jumbotron about-me-jumbo">
+			<div class="container">
+				<h1 id="about-me-header">About Me</h1>
+				<h3 id="about-me-text">From sociologist to web developer. I can make your ideas come to life.</h3>
+
+				<div class="about-icon-link">
+					<a id="skillslink" href="#skillsanchor"><img id="pencil-icon" src="img/pencil-icon.png" /></a>
+					<p>Experience</p>
+				</div>
+
+				<div class="about-icon-link">
+					<a id="bikelink" href="#bikeanchor"><img id="bike-icon" src="img/bike-icon.png" /></a>
+					<p>Adventure</p>
+				</div>
 			</div>
-			<p class="quote">"Stands on shifting sands, <br/>the scales held in her hands,<br/>she'll carry on through it all,<br/>she's a waterfall"
-			<br/>
-			-The Stone Roses</p>
 		</div>
-		<div class="col-xs-12 col-sm-4 no-pad skills-block-1">
-			<div class="skills-block-drop">
-				<p>Development Skills</p>
-					<ul>
-						<li>HTML5</li>
-						<li>css3</li>
-						<li>JavaScript/jQuery</li>
-						<li>Twitter Bootstrap</li>
-						<li>ArcGIS</li>
-					</ul>
+
+		<!-- Skills -->
+		<div class="container skills">
+			<h1 id="skills-headline"><a id="skillsanchor">&nbspEXPERIENCE&nbsp</a></h1>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 no-pad skills-block-1">
+					<div class="skills-block-drop">
+						<p>Education
+						<br/>
+						<br/>
+						I graduated from Bowdoin College with a degree in Environmental Studies and Sociology.  My main interests were sustainable urbanism, and the sociology of objects and consumption.</p>
+					</div>
+					<p class="quote">"We need to discover a common middle ground in which all of these things, from the city to the wilderness, can somehow be encompassed in the word “home.”
+					<br/>
+					- William Cronon</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 no-pad skills-block-2">
+					<div class="skills-block-drop">
+						<p>Work Experience
+						<br/>
+						<br/>
+						Previous positions range from a town planning assistant, to a marketing strategist at a startup, to a short order cook.  In addition to web development, I have extensive experience in writing and editing, event management, and social research.</p>
+					</div>
+					<p class="quote">"Stands on shifting sands, <br/>the scales held in her hands,<br/>she'll carry on through it all,<br/>she's a waterfall"
+					<br/>
+					-The Stone Roses</p>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 no-pad skills-block-1">
+					<div class="skills-block-drop">
+						<p>Development Skills</p>
+							<ul>
+								<li>HTML5</li>
+								<li>css3</li>
+								<li>JavaScript/jQuery</li>
+								<li>Twitter Bootstrap</li>
+								<li>ArcGIS</li>
+							</ul>
+					</div>
+					<p class="quote">"If you knew when you began a book what you would say at the end, do you think that you would have the courage to write it?"
+					<br/>
+					- Michel Foucault</p>
+				</div>
 			</div>
-			<p class="quote">"If you knew when you began a book what you would say at the end, do you think that you would have the courage to write it?"
-			<br/>
-			-Michel Foucault</p>
+
+			<a href="contact.html" class="btn contact-button">Like what you see?</a>
 		</div>
-	</div>
-	<a href="contact.html" class="btn contact-button">Like what you see?</a>
-</div>
 
+		<!-- Interactive map -->
+		<h1 class="container" id="btusfms-headline"><a id="bikeanchor">&nbspADVENTURE&nbsp</a></h1>
 
-<!-- Interactive map -->
+		<!-- Map with state cutouts -->
+		<div class="map-total">
+			<img class="usa" src="img/map-total.png"/>
+			<img class="state" id="washington" src="img/states/washington_sm.png"/>
+			<img class="state" id="idaho" src="img/states/idaho_sm.png"/>
+			<img class="state" id="montana" src="img/states/montana_sm.png"/>
+			<img class="state" id="northdakota" src="img/states/northdakota_sm.png"/>
+			<img class="state" id="minnesota" src="img/states/minnesota_sm.png"/>
+			<img class="state" id="iowa" src="img/states/iowa_sm.png"/>
+			<img class="state" id="illinois" src="img/states/illinois_sm.png"/>
+			<img class="state" id="indiana" src="img/states/indiana_sm.png"/>
+			<img class="state" id="ohio" src="img/states/ohio_sm.png"/>
+			<img class="state" id="newyork" src="img/states/newyork_sm.png"/>
+			<img class="state" id="vermont" src="img/states/vermont_sm.png"/>
+			<img class="state" id="newhampshire" src="img/states/newhampshire_sm.png"/>
+			<img class="state" id="maine" src="img/states/maine_sm.png"/>
 
+			<!-- Text -->
+			<p class="btusfms">
+			In 2015 I biked from Maine to Seattle with <a href="http://www.biketheusforms.org/">Bike the US for MS</a>, and now you can experience the trip with me! (Select a state)
+			<br/>
+			I will be on the road again in 2016, leading a ride from Virginia to San Francisco. <a href="http://www.biketheusforms.org/cyclists/detail.asp?cid=918">Check it out.</a>
+			</p>
+		</div>
 
-<h1 class="container" id="btusfms-headline"><a id="bikeanchor">&nbspADVENTURE&nbsp</a></h1>
+		<!-- State image gallery -->
+		<div class="state-panel">
+			<img class="img-responsive state-img" src="#" />
+			<p class="caption"></p>
+		</div>
 
-<!-- Map with state cutouts -->
-	<div class="map-total">
-		<img class="usa" src="img/map-total.png"/>
-		<img class="state" id="washington" src="img/states/washington_sm.png"/>
-		<img class="state" id="idaho" src="img/states/idaho_sm.png"/>
-		<img class="state" id="montana" src="img/states/montana_sm.png"/>
-		<img class="state" id="northdakota" src="img/states/northdakota_sm.png"/>
-		<img class="state" id="minnesota" src="img/states/minnesota_sm.png"/>
-		<img class="state" id="iowa" src="img/states/iowa_sm.png"/>
-		<img class="state" id="illinois" src="img/states/illinois_sm.png"/>
-		<img class="state" id="indiana" src="img/states/indiana_sm.png"/>
-		<img class="state" id="ohio" src="img/states/ohio_sm.png"/>
-		<img class="state" id="newyork" src="img/states/newyork_sm.png"/>
-		<img class="state" id="vermont" src="img/states/vermont_sm.png"/>
-		<img class="state" id="newhampshire" src="img/states/newhampshire_sm.png"/>
-		<img class="state" id="maine" src="img/states/maine_sm.png"/>
+		<p id="copy-text-alt"> &copyl;2016, Developed by Libby Szuflita </p>
 
-<!-- Text -->
-		<p class="btusfms">
-		In 2015 I biked from Maine to Seattle with <a href="http://www.biketheusforms.org/">Bike the US for MS</a>, and now you can experience the trip with me! (Select a state)
-		<br/>
-		I will be on the road again in 2016, leading a ride from Virginia to San Francisco. <a href="http://www.biketheusforms.org/cyclists/detail.asp?cid=918">Check it out.</a>
-		</p>
-
-	</div>
-
-
-
-<!-- State image gallery -->
-	<div class="state-panel">
-		<img class="img-responsive state-img" src="#" />
-		<p class="caption"></p>
-	</div>
-
-
-
-<p id="copy-text-alt"> &copy2016, Developed by Libby Szuflita </p>
-
-</body>
-
-
+		<!-- Custom JS -->
+		<script src="js/javascript.js"></script>
+	</body>
 </html>
