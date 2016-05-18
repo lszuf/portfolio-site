@@ -25,7 +25,7 @@
 
 /* Sets jumbotron image */
 .home-jumbo {
-	background-image: url("../Images/home_background.JPG");
+	background-image: url("../img/home_background.jpg");
 	background-size: cover;
 	position: relative;
 }
@@ -43,7 +43,7 @@
 
 #hello-world {
 	color: white;
-	left: 80px;	
+	left: 80px;
 }
 
 #im-libby {
@@ -126,7 +126,7 @@
 }
 
 @media (max-height: 450px) {
-	
+
 	#hello-world,
 	#im-libby,
 	#getting-late {
@@ -161,7 +161,7 @@
 	color: white;
 	margin-right: 20px;
 	margin-top: 10px;
-	z-index: 101;	
+	z-index: 101;
 }
 
 
@@ -184,7 +184,7 @@
 	opacity: 0.75;
 	display: none;
 	z-index: 100;
-	cursor: url("../Images/star-cursor.png"), auto;
+	cursor: url("../img/star-cursor.png"), auto;
 }
 
 
@@ -202,7 +202,7 @@
 .menu p a {
 	color: white;
 	text-decoration: none;
-	cursor: url("../Images/star-cursor.png"), auto;
+	cursor: url("../img/star-cursor.png"), auto;
 }
 
 .menu p a:hover {
@@ -269,7 +269,7 @@
 	color: #bac1b8;
 	margin-right: 20px;
 	margin-top: 10px;
-	z-index: 101;	
+	z-index: 101;
 }
 
 .map-menu-link:hover {
@@ -279,7 +279,7 @@
 
 
 .about-me-jumbo {
-	background-image: url('../Images/about_background.JPG');
+	background-image: url('../img/about_background.jpg');
 	background-size: cover;
 	position: relative;
 	opacity: 1;
@@ -289,7 +289,7 @@
 @media (max-width: 450px) {
 
 .about-me-jumbo {
-	background-image: url('../Images/about_background_sm.JPG');
+	background-image: url('../img/about_background_sm.jpg');
 }
 
 }
@@ -670,7 +670,7 @@
 
 /* Styles state photo gallery */
 .state-panel {
-	
+
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -719,7 +719,7 @@
 	color: white;
 	margin-right: 20px;
 	margin-top: 10px;
-	z-index: 101;	
+	z-index: 101;
 }
 
 .contact-menu-link:hover {
@@ -734,8 +734,8 @@
 
 /* Sets jumbotron and resizes it accordingly */
 .contact-page {
-	background-image: url("../Images/contact_background.JPG");
-	background-size: cover;	
+	background-image: url("../img/contact_background.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0px -100px;
 }
@@ -812,10 +812,8 @@
 }
 
 @media (max-height: 450px) {
-	
+
 	.contact {
 		top: -25px;
 	}
 }
-
-

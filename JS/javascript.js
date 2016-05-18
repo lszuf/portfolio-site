@@ -1,4 +1,4 @@
-var $homeMenuDown = false;	
+var $homeMenuDown = false;
 var $otherMenuDown = false;
 
 var main = function() {
@@ -93,43 +93,43 @@ $('.skills-block-1, .skills-block-2').hover(function(){
 		var $stateId = $(this).attr('id');
 
 		if($stateId == "idaho") {
-			$(".state-img").attr("src", "Images/idaho.JPG");
+			$(".state-img").attr("src", "img/states/idaho.jpg");
 			$(".caption").html("Sandpoint, Idaho");
 		} else if ($stateId == "montana") {
-			$(".state-img").attr("src", "Images/montana.jpg");
+			$(".state-img").attr("src", "img/states/montana.jpg");
 			$(".caption").html("Glacier National Park, Montana");
 		} else if ($stateId == "northdakota") {
-			$(".state-img").attr("src", "Images/northdakota.JPG");
+			$(".state-img").attr("src", "img/states/northdakota.jpg");
 			$(".caption").html("Teddy Roosevelt National Park, North Dakota");
 		} else if ($stateId == "minnesota") {
-			$(".state-img").attr("src", "Images/minnesota.JPG");
+			$(".state-img").attr("src", "img/states/minnesota.jpg");
 			$(".caption").html("Crooked Creek, Minnesota");
 		} else if ($stateId == "iowa") {
-			$(".state-img").attr("src", "Images/iowa.JPG");
+			$(".state-img").attr("src", "img/states/iowa.jpg");
 			$(".caption").html("Oxford Junction, Iowa");
 		} else if ($stateId == "illinois") {
-			$(".state-img").attr("src", "Images/illinois.JPG");
+			$(".state-img").attr("src", "img/states/illinois.jpg");
 			$(".caption").html("Ashkum, Illinois");
 		} else if ($stateId == "indiana") {
-			$(".state-img").attr("src", "Images/indiana.JPG");
+			$(".state-img").attr("src", "img/states/indiana.jpg");
 			$(".caption").html("Lancaster, Indiana");
 		} else if ($stateId == "ohio") {
-			$(".state-img").attr("src", "Images/ohio.JPG");
+			$(".state-img").attr("src", "img/states/ohio.jpg");
 			$(".caption").html("Bowling Green, Ohio");
 		} else if ($stateId == "newyork") {
-			$(".state-img").attr("src", "Images/newyork.JPG");
+			$(".state-img").attr("src", "img/states/newyork.jpg");
 			$(".caption").html("Niagara Falls, New York");
 		} else if ($stateId == "vermont") {
-			$(".state-img").attr("src", "Images/vermont.JPG");
+			$(".state-img").attr("src", "img/states/vermont.jpg");
 			$(".caption").html("Thetford, Vermont");
 		} else if ($stateId == "newhampshire") {
-			$(".state-img").attr("src", "Images/newhampshire.JPG");
+			$(".state-img").attr("src", "img/states/newhampshire.jpg");
 			$(".caption").html("Conway, New Hampshire");
 		} else if ($stateId == "maine") {
-			$(".state-img").attr("src", "Images/maine.JPG");
+			$(".state-img").attr("src", "img/states/maine.jpg");
 			$(".caption").html("Belfast, Maine");
 		} else if ($stateId == "washington") {
-			$(".state-img").attr("src", "Images/washington.JPG");
+			$(".state-img").attr("src", "img/states/washington.jpg");
 			$(".caption").html("Washington Pass, Washington");
 		};
 
